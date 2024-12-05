@@ -1,0 +1,37 @@
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+<style>
+    body{
+        margin: 0;
+        background: black;
+    }
+
+</style>
+
+
+<div class="fixed text-white ml-2 select-none"><span>Score: </span><span id="score">0</span></div>
+
+<div class="fixed inset-0 flex items-center justify-center" id="startUi">
+    <div class="bg-white max-w-md w-full p-6 text-center ">
+        <h1 class="text-4xl font-bold">Bubble Buster</h1>
+        <br>
+        <p class="text-5xl text-grey-700">Highscore</p>
+        <h2 class="text-4xl font-bold"id="bigScore">0</h2>
+        <div>
+            <button class="text-4xl bg-green-600 text-white w-full py-2 rounded-full select-none" id="startGamebtn">PLAY!</button>
+        </div>
+    </div>
+
+</div>
+
+<canvas></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+ integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous" 
+  referrerpolicy="no-referrer">
+</script>
+
+<script src="script.js"></script>
+
+
